@@ -1,0 +1,27 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="512" height="512" rx="128" fill="url(#gradient)"/>
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8B5CF6"/>
+      <stop offset="50%" style="stop-color:#EC4899"/>
+      <stop offset="100%" style="stop-color:#EF4444"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Download Icon -->
+  <g transform="translate(128, 128)">
+    <rect x="64" y="32" width="128" height="8" rx="4" fill="white" opacity="0.9"/>
+    <rect x="64" y="48" width="96" height="8" rx="4" fill="white" opacity="0.7"/>
+    <rect x="64" y="64" width="112" height="8" rx="4" fill="white" opacity="0.5"/>
+    
+    <!-- Arrow Down -->
+    <path d="M128 96L128 192M128 192L96 160M128 192L160 160" stroke="white" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+    
+    <!-- Base -->
+    <rect x="48" y="208" width="160" height="16" rx="8" fill="white" opacity="0.8"/>
+  </g>
+  
+  <!-- No Watermark Symbol -->
+  <circle cx="384" cy="128" r="48" fill="white" opacity="0.2"/>
+  <path d="M352 128L368 144L416 96" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
